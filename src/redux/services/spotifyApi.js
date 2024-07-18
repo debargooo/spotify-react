@@ -2,10 +2,10 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const spotifyApiHeaders = {
   'x-rapidapi-key': 'e7926fad4cmsh5a807f85936203ap172de1jsnf7314eaa913a',
-  'x-rapidapi-host': 'spotify23.p.rapidapi.com',
+  'x-rapidapi-host': 'spotify81.p.rapidapi.com'
 };
 
-const baseUrl = 'https://spotify23.p.rapidapi.com';
+const baseUrl = 'https://spotify81.p.rapidapi.com';
 
 const createRequest = (url) => ({ url, headers: spotifyApiHeaders });
 
